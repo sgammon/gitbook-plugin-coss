@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-plugin-coss",
+  "name": "gitbook-plugin-coss-ocs",
   "version": "1.0.8",
-  "description": "COSS plugin",
+  "description": "COSS plugin for OCS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unprotocols/gitbook-plugin-coss.git"
+    "url": "git+https://github.com/sgammon/gitbook-plugin-coss.git"
   },
   "author": "Yurii Rashkovskii <yrashk@gmail.com>",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/unprotocols/gitbook-plugin-coss/issues"
+    "url": "https://github.com/sgammon/gitbook-plugin-coss/issues"
   },
-  "homepage": "https://github.com/unprotocols/gitbook-plugin-coss#readme",
+  "homepage": "https://github.com/sgammon/gitbook-plugin-coss#readme",
   "dependencies": {
     "glob": "^7.0.3"
   }
