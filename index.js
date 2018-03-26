@@ -17,11 +17,11 @@ module.exports = {
         var insert = "";
 
         if (!page.noinsert && page.status) {
-          insert += "![" + page.status + "](http://rfc.unprotocols.org/spec:2/COSS/" + page.status + ".svg)\n"
+          insert += "![" + page.status + "](//rfc.unprotocols.org/spec:2/COSS/" + page.status + ".svg)\n"
         }
 
         if (!page.noinsert && page.domain) {
-          insert += "* Name: [" + page.domain + "/spec:" + page.shortname + "](http://" + page.domain + "/spec:" + page.shortname + ")\n";
+          insert += "* Name: [" + page.domain + "/spec:" + page.shortname + "](//" + page.domain + "/spec:" + page.shortname + ")\n";
           insert += "* Status: " + page.status + "\n";
           insert += "* Editor: " + page.editor + "\n";
           if (page.contributors) {
