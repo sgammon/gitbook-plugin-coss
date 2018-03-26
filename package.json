@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-coss-ocs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "COSS plugin for OCS",
   "main": "index.js",
   "scripts": {
